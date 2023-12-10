@@ -1,0 +1,33 @@
+.contenedor-sobre-mi{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.contenedor-presentacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.imagen-de-referencia{
+  width: 200px;
+  aspect-ratio: 1000 / 667;
+  clip-path: circle(50% at center)
+}
+.carta-presentacion{
+  background-color: #1b1b1b;
+  width: 480px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.iconos-div{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}

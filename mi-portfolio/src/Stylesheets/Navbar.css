@@ -4,10 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body,
-html{
-  background-color: #0F0F0F;
-}
+
+
 .link-nav{
   display: flex;
   color: white;
@@ -37,6 +35,13 @@ html{
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 255, 255, 0.014);
 }
 .responsive-menu{
   display: flex;
@@ -48,7 +53,7 @@ html{
 .icono-font-facube:hover{
   color:#ff7f50;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1140px) {
   .responsive-menu.visible {
     display: flex;
     flex-direction: column;
@@ -60,6 +65,7 @@ html{
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.5rem;
+    background-color: #0f0f0f;
   }
 
   .responsive-menu.hidden {
@@ -86,5 +92,8 @@ html{
   .link-nav{
     height: 70px;
     width: 80%;
+  }
+  .contenedor-nav{
+    background-color: #0F0F0F;
   }
 }
