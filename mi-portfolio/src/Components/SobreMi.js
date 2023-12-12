@@ -19,7 +19,9 @@ function SobreMi(){
           </div>
       </div>
       <div className='carta-texto'>
-
+        <p className='texto-descripcion'>
+          "Hola, me llamo <strong>Facundo Leonetti</strong>. Soy un desarrollador que está comenzando en el mundo de la programación web. Estoy interesado en las nuevas tecnologías como React, Vue, Node.js, entre otras. Me apasiona la informática en general, pero más la programación. <br></br>Gracias por visitar mi portafolio."
+        </p>
       </div>
     </div>
   );

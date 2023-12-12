@@ -41,7 +41,6 @@
   left: 0;
   z-index: 1;
   backdrop-filter: blur(100px);
-  background-color: rgba(0, 255, 255, 0.014);
 }
 .responsive-menu{
   display: flex;
@@ -73,9 +72,6 @@
   }
 
   .button-nav-responsive {
-    display: block;
-  }
-  .button-nav-responsive {
     display: flex;
     background-color: #0F0F0F;
     border: none;
@@ -84,6 +80,7 @@
     width: 100px;
     height: 70%;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   .button-nav-responsive:hover {

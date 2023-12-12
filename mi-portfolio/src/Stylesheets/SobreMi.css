@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
 .contenedor-sobre-mi{
   height: 100vh;
   display: flex;
@@ -30,4 +31,20 @@
   justify-content: center;
   width: 100%;
   gap: 20px;
+}
+
+.carta-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Roboto;
+  width: 50%;
+}
+.texto-descripcion{
+  width: 74%;
+  font-size: 1.6rem;
+}
+strong{
+  color: #fa6630;
 }
