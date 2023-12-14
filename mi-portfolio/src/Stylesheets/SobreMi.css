@@ -48,3 +48,34 @@
 strong{
   color: #fa6630;
 }
+
+@media screen and (max-width:1050px){
+  .contenedor-sobre-mi {
+    flex-direction: column;
+  }
+
+  .contenedor-presentacion,
+  .carta-texto {
+    width: 100%;
+  }
+
+  .imagen-de-referencia {
+    width: 150px;
+  }
+
+  .carta-presentacion {
+    margin-top: 70px;
+    width: 50%;
+    height: 550px;
+  }
+
+  .iconos-div {
+    gap: 10px;
+  }
+
+  .texto-descripcion {
+    width: 70%;
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+}
