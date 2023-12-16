@@ -30,7 +30,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to bottom, #33333300, #5050509d);
+  background: linear-gradient(to bottom, #33333300, #50505067);
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.2s ease-in-out;
@@ -55,7 +55,8 @@
   transform-origin: center;
 }
 .link-nav:hover{
-  color: #ff7f50;
+  color: #fa691d
+;
 }
 .link-nav-logo{
   display: flex;
@@ -70,7 +71,7 @@
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  position: absolute;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -85,7 +86,8 @@
   display: none;
 }
 .icono-font-facube:hover{
-  color:#ff7f50;
+  color: #fa691d
+;
 }
 @media screen and (max-width: 1140px) {
   .responsive-menu.visible {

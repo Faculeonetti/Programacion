@@ -7,3 +7,10 @@ body,
 html{
   background-color: #0F0F0F;
 }
+
+.section-sobremi{
+  background-image: url('./Images/pattern.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
