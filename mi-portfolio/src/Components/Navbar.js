@@ -15,31 +15,31 @@ function Navbar() {
   
   return (
     <div className='contenedor-nav'>
-      <a className='link-nav-logo' href='#'>
-        <FontAwesomeIcon size='2xl' color="white" icon={faCube} className='icono-font-facube' />
+      <a className='link-nav-logo' href='A'>
+        <FontAwesomeIcon size='2xl' color='white' icon={faCube} className='icono-font-facube' />
       </a>
       <nav className={`responsive-menu ${isMenuVisible ? 'visible' : 'hidden'}`}>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Sobre mi
         </a>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Mis habilidades
         </a>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Proyectos personales
         </a>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Mi experiencia laboral
         </a>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Educacion
         </a>
-        <a className='link-nav' href='#' onClick={closeMenu}>
+        <a className='link-nav' href='A' onClick={closeMenu}>
           Contacto
         </a>
       </nav>
       <button className='button-nav-responsive' onClick={toggleMenu}>
-        <FontAwesomeIcon color="white" size='2xl' icon={faBars} />
+        <FontAwesomeIcon color='white' size='2xl' icon={faBars} />
       </button>
     </div>
   );

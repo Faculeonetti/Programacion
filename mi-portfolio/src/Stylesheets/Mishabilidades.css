@@ -1,3 +1,35 @@
-svg{
-  width: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+*{
+box-sizing: border-box;
+}
+
+article{
+  width: 140px;
+  height: 100%;
+  color: white;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+img{
+  width: 50px;
+  height: 50px;
+}
+.contenedor-habilidades{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.programacion-topic,
+.otros-topic{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid #80808047;
+  border-radius: 6px;
+  height: 150px;
 }
