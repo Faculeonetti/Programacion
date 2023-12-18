@@ -10,6 +10,7 @@ html{
 
 .section-sobremi{
   height: 100vh;
+  display: contents;
 }
 
 .custom-shape-divider-bottom-1702909982 {
@@ -20,10 +21,11 @@ html{
 }
 
 .custom-shape-divider-bottom-1702909982 svg {
-  position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 41px;
+  background-color: #0f0f0f;
+
 }
 
 .custom-shape-divider-bottom-1702909982 .shape-fill {

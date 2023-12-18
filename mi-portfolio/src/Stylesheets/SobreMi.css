@@ -54,6 +54,7 @@ strong{
 @media screen and (max-width:1050px){
   .contenedor-sobre-mi {
     flex-direction: column;
+    
   }
 
   .contenedor-presentacion,
