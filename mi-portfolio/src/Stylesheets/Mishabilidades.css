@@ -12,6 +12,11 @@ article{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #0f0f0f;  
+}
+article:hover{
+  background-color: #1b1b1b;
+  cursor: pointer;
 }
 img{
   width: 50px;
@@ -30,6 +35,24 @@ img{
   flex-direction: row;
   justify-content: center;
   border: 1px solid #80808047;
-  border-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   height: 150px;
+}
+h3{
+  background-color: #1b1b1b;
+  border: 1px solid #80808047;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-family: Roboto;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-weight: 600;
+}
+h2{
+  font-family: Roboto;
+  font-size: 1.1rem;
 }

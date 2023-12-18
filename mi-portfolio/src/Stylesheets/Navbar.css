@@ -33,7 +33,7 @@
   background: linear-gradient(to bottom, #33333300, #50505067);
   transform: scaleX(0);
   transform-origin: center;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.15s ease-in-out;
   z-index: -1;
 }
 
@@ -48,15 +48,11 @@
   height: 2px;
   background-color: #fff; 
   transform-origin: center;
-  transition: width 0.2s ease-in-out;
+  transition: width 0.15s ease-in-out;
 }
 .link-nav:hover::after {
   width: 100%;
   transform-origin: center;
-}
-.link-nav:hover{
-  color: #fa691d
-;
 }
 .link-nav-logo{
   display: flex;
@@ -76,7 +72,6 @@
   top: 0;
   left: 0;
   z-index: 1;
-  backdrop-filter: blur(100px);
 }
 .responsive-menu{
   display: flex;
