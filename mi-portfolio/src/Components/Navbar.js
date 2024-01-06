@@ -14,7 +14,7 @@ function Navbar() {
   };
   
   return (
-    <div className='contenedor-nav'>
+    <div className={`contenedor-nav ${isMenuVisible ? 'visible' : 'hidden'}`}>
       <a className='link-nav-logo' href='A'>
         <FontAwesomeIcon size='2xl' color='white' icon={faCube} className='icono-font-facube' />
       </a>

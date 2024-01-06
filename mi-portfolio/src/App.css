@@ -3,31 +3,12 @@ Navbar{
 }
 
 
-body,
-html{
- background-color: white;
-}
-
 .section-sobremi{
   height: 100vh;
-  display: contents;
-}
-
-.custom-shape-divider-bottom-1702909982 {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1702909982 svg {
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 41px;
-  background-color: #0f0f0f;
-
-}
-
-.custom-shape-divider-bottom-1702909982 .shape-fill {
-  fill: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./Images/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

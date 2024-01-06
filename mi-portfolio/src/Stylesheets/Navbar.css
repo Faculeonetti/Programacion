@@ -72,13 +72,26 @@
   top: 0;
   left: 0;
   z-index: 1;
+  animation:  blur linear both;
+  animation-timeline: scroll();
+  animation-range: 0 500px;
+}
+@keyframes blur {
+  to{
+    box-shadow: 0px 5px 50px -5px hsla(0, 0%, 100%, 0.1)
+    0px 0px 0px 1px hsla(0, 0%, 100%, 0.1);
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(10px);
+  }
 }
 .responsive-menu{
   display: flex;
   height: 100%;
+
 }
 .button-nav-responsive{
   display: none;
+  
 }
 .icono-font-facube:hover{
   color: #fa691d
@@ -96,7 +109,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.5rem;
-    background-color: #0f0f0f;
+    background-color: #976f8a;
   }
 
   .responsive-menu.hidden {
@@ -122,7 +135,7 @@
     height: 70px;
     width: 80%;
   }
-  .contenedor-nav{
-    background-color: #0F0F0F;
+  .contenedor-nav.visible{
+    background-color: #976f8a;
   }
 }
