@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Barrascroll from './Components/Barrascroll';
 import SobreMi from './Components/SobreMi';
+import BentoGrid from './Components/Mishabilidades.js';
+
 function App() {
   return (
     <div className="App">
@@ -11,7 +13,7 @@ function App() {
         <Barrascroll />
       </section>
       <section>
-      
+        <BentoGrid />
       </section>
     </div>
   );

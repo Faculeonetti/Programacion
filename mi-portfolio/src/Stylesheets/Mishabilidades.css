@@ -1,1 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Bento2 {
+    grid-area: 1 / 3 / 3 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento1 {
+    grid-area: 1 / 1 / 3 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento3 {
+    grid-area: 1 / 5 / 3 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento4 {
+    grid-area: 3 / 1 / 5 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento5 {
+    grid-area: 3 / 3 / 5 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento6 {
+    grid-area: 3 / 5 / 5 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento7 {
+    grid-area: 5 / 1 / 7 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento8 {
+    grid-area: 5 / 3 / 7 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
+
+.Bento9 {
+    grid-area: 5 / 5 / 7 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: Grey;
+    box-sizing: content-box;
+    margin: 10px;
+    font-family: Roboto;
+}
