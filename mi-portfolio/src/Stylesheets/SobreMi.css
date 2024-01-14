@@ -45,11 +45,15 @@
 
 .texto-descripcion{
   width: 74%;
+  padding: 30px;
+  border-radius: 10px;
   font-size: 1.6rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 23px -12px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 23px -12px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 23px -12px rgba(0,0,0,1);
 }
-strong{
-  color: #fa691d;
-}
+
 
 @media screen and (max-width:1050px){
   .contenedor-sobre-mi {
